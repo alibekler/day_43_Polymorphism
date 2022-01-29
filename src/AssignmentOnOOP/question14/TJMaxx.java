@@ -191,7 +191,7 @@ public class TJMaxx {
             if (item.getCatalogNumber()==catalogNumber){
                item.setQuantity(item.getQuantity()-1);
             }
-            if (item.getCatalogNumber()<=0){
+            if (item.getQuantity()<=0){
                 onSaleItem.remove();
             }
 
@@ -206,7 +206,7 @@ public class TJMaxx {
                 item.setQuantity(item.getQuantity()-1);
             }
 
-            if (item.getCatalogNumber()<=0){
+            if (item.getQuantity()<=0){
                 regularItem.remove();
             }
         }

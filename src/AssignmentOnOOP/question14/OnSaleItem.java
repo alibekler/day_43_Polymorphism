@@ -52,6 +52,6 @@ public class OnSaleItem extends Item {
      */
     @Override
     public String toString() {
-        return "OnSaleItem{" + "discount=" + discount + ", name=" + getName() + ", price=" + getPrice() +'}';
+        return "OnSaleItem{" + "discount=" + discount + "%, name=" + getName() + ", price=" + getPrice() +'}';
     }
 }
